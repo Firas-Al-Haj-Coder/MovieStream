@@ -1,0 +1,39 @@
+// API KEY
+388c5e123d87331b6500e93972549782
+
+
+// Movie Lists
+Now Playing
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzODhjNWUxMjNkODczMzFiNjUwMGU5Mzk3MjU0OTc4MiIsIm5iZiI6MTczMTIyMTU1MS42ODkyNzYsInN1YiI6IjY3MmZiZDZlMTc3MGIwMzUxZGUzOGZjOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rBDJTiKBK8sfnMePNuX1vOrdBTBac3ksJJO-yURqaDE' \
+     --header 'accept: application/json'
+
+
+Popular 
+     --url 'https://api.themoviedb.org/3/movie/popular?language=en-US&page=1' \
+
+     curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/popular?language=en-US&page=1' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzODhjNWUxMjNkODczMzFiNjUwMGU5Mzk3MjU0OTc4MiIsIm5iZiI6MTczMTIyMTU1MS42ODkyNzYsInN1YiI6IjY3MmZiZDZlMTc3MGIwMzUxZGUzOGZjOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rBDJTiKBK8sfnMePNuX1vOrdBTBac3ksJJO-yURqaDE' \
+     --header 'accept: application/json'
+
+Top Rated
+     --url 'https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1' \
+
+Upcoming:
+     --url 'https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1' \
+
+// Movie Individual (Card Page)
+Details:
+     --url 'https://api.themoviedb.org/3/movie/movie_id?language=en-US' \
+
+
+// Search Movie 
+Search:
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/search/movie?query=movie_name6
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzODhjNWUxMjNkODczMzFiNjUwMGU5Mzk3MjU0OTc4MiIsIm5iZiI6MTczMTIyMTU1MS42ODkyNzYsInN1YiI6IjY3MmZiZDZlMTc3MGIwMzUxZGUzOGZjOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rBDJTiKBK8sfnMePNuX1vOrdBTBac3ksJJO-yURqaDE' \
+     --header 'accept: application/json'
+
+
