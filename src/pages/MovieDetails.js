@@ -8,7 +8,7 @@ export default function MovieDetails({title}) {
   // Zugriff auf den URL-Parameter :id nach dem Klicken auf einen Film
   const params = useParams();
 
-  //console.log(params) // Ausgabe des Parameters in der Konsole
+  console.log(params) // Ausgabe des Parameters in der Konsole
 
   const [movie_d, setDetails] = useState({}); // beginnt als leeres Objekt, was wir aus dem  useFetch erhalten
 
