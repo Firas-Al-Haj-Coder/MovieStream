@@ -123,7 +123,7 @@ export default function MovieDetails({title}) {
           </p>
           <p className='my-2'>
             
-            <span className='mr-1 font-bold text-sm'>IMDB-Code: </span> <a className='' href={`www.imdb.com/title/${movie_d.imdb_id}`}> {movie_d.imdb_id}</a>
+            <span className='mr-1 font-bold text-sm'>IMDB-Code: </span> <a className='' href={`https://www.imdb.com/title/${movie_d.imdb_id}`}> {movie_d.imdb_id}</a>
           </p>
 
         </div>
